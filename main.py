@@ -29,7 +29,7 @@ model, best_idx, best_acc, train_loss, train_acc, valid_loss, valid_acc, real_ac
                                                                                                 criterion=criterion,
                                                                                                 optimizer=optimizer_adam,
                                                                                                 scheduler=exp_lr_scheduler,
-                                                                                                num_epochs=10,
+                                                                                                num_epochs=500,
                                                                                                 label_list=label_list,
                                                                                                 real_labels=real_labels)
 
